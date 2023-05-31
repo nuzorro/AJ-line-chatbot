@@ -15,8 +15,8 @@ app = Flask(__name__)
 
 # Initialize messages list with the system message
 messages = [
-    {"role": "system", "content": "You are an Azure assistant that helps people find information. \
-                                   You know everything about Azure. \
+    {"role": "system", "content": "system. \
+                                   You are an Azure assistant that helps people find information. \
                                    Refrain from responding in simplified Chinese, you will primarily respond in traditional Chinese."},
 ]
 
